@@ -1,0 +1,27 @@
+package BiodataDiri;
+
+public class BiodataDiri {
+    
+    public static void main(String[] args) {
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>Data Diri<<<<<<<<<<<<<<<<<<<<<<<");
+    String Nama = "AndiAlviansyah.S";
+    String Nim  = "D0223007";
+    byte umur   = 17;
+    char kelas  = 'A';
+        double BB = 48.3;
+        float TB  = 163.3f;
+        int BMI = 30;
+        String alamat = "Tapalang";
+        
+        System.out.println("Nama \t: "+Nama);
+        System.out.println("Nim \t: "+Nim);
+        System.out.println("Umur \t: "+umur+"Tahun");
+        System.out.println("Kelas \t: informatika "+ kelas+ " 2023");
+        System.out.println("BB \t: "+BB+" kg");
+        System.out.println("TB \t: "+TB+" cm");
+        System.out.println("BMI \t: "+BMI);
+        System.out.println("Alamat \t: "+alamat);
+        
+    }
+    
+}
