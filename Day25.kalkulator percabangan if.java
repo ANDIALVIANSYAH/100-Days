@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class Belajar1 {
     public static void main(String[] args) {
         Scanner iky = new Scanner(System.in);
+        //membuat kalkulator percabangan if else
        float a,b,hasil;
+        //menggukan tipe data float agar bisa menggunakan koma pada nilai nya( , )
        char operator;
        System.out.print("nilai 1 = ");
        a = iky.nextFloat();
