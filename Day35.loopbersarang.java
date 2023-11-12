@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
         //loop bersarang berbentuk kotak dan segitiga
-        //Looping bersarang untuk mencetak kotak bintang sebanyak 6x6 (6 ke kanan 6 ke kiri sebanyak 12x)
+        //Looping bersarang untuk mencetak kotak bintang sebanyak 6x6 (6 ke kanan 6 ke bawah sebanyak 12x)
         for(int i = 0; i < 6; i++){
             for(int a= 0; a < 6; a++){
             System.out.print("* ");    
